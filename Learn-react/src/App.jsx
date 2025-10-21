@@ -6,11 +6,13 @@ import Student from './Student.jsx'
 import Greet from './Greet.jsx'
 import Lists from './Lists.jsx'
 import Button from './Button.jsx'
+import MyComponent from './MyComponent.jsx'
+import CounterUseState from './CounterUseState.jsx'
 
 function App(){
   return(
     <>
-      <Button></Button>
+      <CounterUseState></CounterUseState>
     </>
   );  
 }
