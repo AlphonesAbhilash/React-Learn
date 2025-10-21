@@ -5,11 +5,12 @@ import Card from './Card.jsx'
 import Student from './Student.jsx'
 import Greet from './Greet.jsx'
 import Lists from './Lists.jsx'
+import Button from './Button.jsx'
 
 function App(){
   return(
     <>
-      <Lists></Lists>
+      <Button></Button>
     </>
   );  
 }
