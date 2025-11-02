@@ -3,13 +3,13 @@ import React, {useState} from 'react';
 function CounterUseState(){
     const [count, setCount]=useState(0);
 
-    const increment=()=>{
+    const incrementFun=()=>{
         setCount(count+1);
     }
-    const decrement=()=>{
+    const decrementFun=()=>{
         setCount(count-1);
     }
-    const reset=()=>{
+    const resetFun=()=>{
         setCount(0);
     }
     
@@ -18,9 +18,9 @@ function CounterUseState(){
             <h1>The Counter</h1>
             <p className="display">{count}</p>
             <div className="btns">
-                <button id='inc' onClick={increment}>Update</button>
-                <button id='res' onClick={reset}>Reset</button>
-                <button id='dec' onClick={decrement}>Downdate</button>
+                <button id='inc' onClick={incrementFun}>Update</button>
+                <button id='res' onClick={resetFun}>Reset</button>
+                <button id='dec' onClick={decrementFun}>Downdate</button>
             </div>
         </div>
     );

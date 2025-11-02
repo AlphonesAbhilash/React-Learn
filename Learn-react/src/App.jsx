@@ -9,10 +9,12 @@ import Button from './Button.jsx'
 import MyComponent from './MyComponent.jsx'
 import CounterUseState from './CounterUseState.jsx'
 
+import DeliveryOnChange from './DeliveryOnChange.jsx'
+
 function App(){
   return(
     <>
-      <CounterUseState></CounterUseState>
+      <DeliveryOnChange></DeliveryOnChange>
     </>
   );  
 }
