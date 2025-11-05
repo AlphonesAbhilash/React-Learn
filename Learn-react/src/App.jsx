@@ -10,11 +10,12 @@ import MyComponent from './MyComponent.jsx'
 import CounterUseState from './CounterUseState.jsx'
 
 import DeliveryOnChange from './DeliveryOnChange.jsx'
-
+import ColorPicker from './ColorPicker.jsx'
+import WorkWithArrays from './WorkWithArrays.jsx'
 function App(){
   return(
     <>
-      <DeliveryOnChange></DeliveryOnChange>
+      <WorkWithArrays></WorkWithArrays>
     </>
   );  
 }

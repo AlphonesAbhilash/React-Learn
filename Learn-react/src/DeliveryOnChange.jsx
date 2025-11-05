@@ -1,3 +1,7 @@
+// onChange: The onChange event handler used primarily with form elements.
+//         ex: <input>, <textarea>,<select>, <radio>
+//         Triggers a function everytime the value of the input changes.
+
 import React, {useState} from 'react';
 
 function DeliveryOnChange(){
