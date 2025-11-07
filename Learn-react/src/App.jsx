@@ -12,10 +12,12 @@ import CounterUseState from './CounterUseState.jsx'
 import DeliveryOnChange from './DeliveryOnChange.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import WorkWithArrays from './WorkWithArrays.jsx'
+import Cars from './Cars.jsx'
+
 function App(){
   return(
     <>
-      <WorkWithArrays></WorkWithArrays>
+      <Cars></Cars>
     </>
   );  
 }
